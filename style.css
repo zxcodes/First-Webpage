@@ -1,0 +1,117 @@
+.head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(51, 49, 49);
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgb(88, 200, 238), rgb(119, 216, 119));
+}
+
+.nav {
+    color: white;
+    background-color: rgb(42, 38, 43);
+    overflow: hidden;
+    padding-block-end: 0px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(130, 130, 170));
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 8px;
+    text-align: center;
+    color: whitesmoke;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover {
+    background-color: rgb(216, 19, 84);
+    color: white;
+}
+
+.nav a.active {
+    background-color: rgb(216, 19, 84);
+    color: white;
+}
+
+.nav input[type=text] {
+    float: right;
+    border: none;
+    padding: 10px;
+    margin-top: 2.5px;
+    margin-right: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.bod {
+    margin: 0%;
+    background-color: rgb(8, 8, 8);
+}
+
+.art {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.box {
+    width: 30.2%;
+    float: left;
+    margin: 20px;
+    border: 3px rgba(14, 165, 211, 0.993) solid;
+    border-radius: 14px;
+    padding: 10px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    box-sizing: border-box;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.img {
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.art {
+    border: 4px white dotted;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 70%;
+    float: right;
+    margin-right: 2.7%;
+    margin-top: 7%;
+}
+
+.foot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 249, 249);
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(187, 115, 48), rgb(236, 25, 183));
+    margin-top: 9%;
+}
